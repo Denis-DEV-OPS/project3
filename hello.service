@@ -1,0 +1,9 @@
+[Unit]
+Description=My Hello world service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo "Hello, world!"
+
+[Install]
+WantedBy=multi-user.target
